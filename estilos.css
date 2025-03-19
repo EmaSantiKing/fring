@@ -1,0 +1,133 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(197, 180, 133);
+    background-image:url(https://img.freepik.com/foto-gratis/fondo-textura-hormigon-negro-grunge_53876-124541.jpg);
+    height: 120vh;
+}
+img{
+    width: 100%;
+}
+
+header{
+    width:100%;
+    height:30vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(https://wallpapers.com/images/hd/1920x1080-black-v3llumbsjkvx0cyc.jpg);
+}
+header h1{
+    font-size: 8vh;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+header h1:hover{
+    color: gray;
+}
+main{
+    margin-top: 3%;
+    width: 100%;
+    height: 70vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+#cajitas{
+    width: 30%;
+    height: 60vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+#cajitas h4{
+    color: white;
+    font-size: 3vh;
+    text-decoration: underline;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#cajitas p{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#cajitas img{
+    width: 85%;
+    height: 35vh;
+    border-radius: 24px;
+    transition: 0.2;
+}
+#cajitas img:hover{
+    transform: scale(1.1);
+}
+footer{
+    margin-left: 3%;
+}
+footer h3{
+    color: white;
+    font-family:Arial, Helvetica, sans-serif;
+    text-decoration: underline;
+    height: 7vh;
+}
+footer p{
+    margin-top: -1%;
+    color: white;
+    font-family:Arial, Helvetica, sans-serif;
+
+}
+
+
+@media (max-width: 1000px) {
+    header {
+        height: 20vh; 
+        text-align: center;
+    }
+    header h1 {
+        font-size: 5vh; 
+    }
+    main {
+        flex-direction: column; 
+        align-items: center;
+        height: auto;
+    }
+    #cajitas {
+        width: 90%; 
+        height: auto; 
+        margin-bottom: 20px; 
+        text-align: center; 
+    }
+
+    #imagen img{
+        height: 25vh; 
+        max-width: 100%;
+    }
+    #imagen1 img{
+        height: 25vh; 
+        max-width: 100%;
+        margin-top: 5%;
+    }
+    #imagen2 img {
+        height: 25vh; 
+        max-width: 100%;
+    }
+
+    #cajitas h4 {
+        font-size: 2.5vh;
+    }
+    #cajitas p {
+        font-size: 2vh; 
+        padding: 0 10px; 
+    }
+
+    footer {
+        text-align: center;
+        margin-left: 0;
+        padding: 20px;
+    }
+    footer h3 {
+        font-size: 3vh;
+    }
+    footer p {
+        font-size: 2vh;
+    }
+}
